@@ -41,3 +41,4 @@ str = input()
 palin = manacher_end(str)
 str = str.replace(palin,'')
 print(str+palin+str[::-1])
+
